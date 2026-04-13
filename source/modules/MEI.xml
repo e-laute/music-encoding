@@ -1378,7 +1378,7 @@
       </valList>
     </content>
   </macroSpec>
-  <macroSpec ident="data.FINGER.FRET" module="MEI" type="dt">
+  <!--<macroSpec ident="data.FINGER.FRET" module="MEI" type="dt">
     <desc xml:lang="en">In a guitar chord diagram, a label indicating which finger, if any, should be used to play
       an individual string. The index, middle, ring, and little fingers are represented by the
       values 1-4, while 't' is for the thumb. The values 'x' and 'o' indicate stopped and open
@@ -1394,7 +1394,7 @@
         </rng:data>
       </rng:choice>
     </content>
-  </macroSpec>
+  </macroSpec>-->
   <macroSpec ident="data.FONTFAMILY" module="MEI" type="dt">
     <desc xml:lang="en">Font family (for text) attribute values.</desc>
     <content>
