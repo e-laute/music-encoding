@@ -124,6 +124,17 @@
       </attDef>
     </attList>
   </classSpec>
+  <classSpec ident="att.stringtab.fingerings" module="MEI.stringtab" type="atts">
+    <desc xml:lang="en">String tablature fingering information.</desc>
+    <attList>
+      <attDef ident="tab.fing" usage="opt">
+        <desc xml:lang="en">Records fingering information for both plucking and fretting hand.</desc>
+        <datatype>
+          <rng:ref name="data.TABFINGERINGS"/>
+        </datatype>
+      </attDef>
+    </attList>
+  </classSpec>
   <classSpec ident="att.stringtab.position" module="MEI.stringtab" type="atts">
     <desc xml:lang="en">String tablature position information.</desc>
     <attList>
