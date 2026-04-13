@@ -3619,6 +3619,43 @@
       <rng:data type="positiveInteger"/>
     </content>
   </macroSpec>
+  <macroSpec ident="data.TABFINGERINGS" module="MEI" type="dt">
+    <desc xml:lang="en">Fingering indication for plucking string instrument.</desc>
+    <content>
+      <valList type="closed">
+        <valItem ident="p">
+          <desc xml:lang="en">Pulgar: Thumb of the plucking hand.</desc>
+        </valItem>
+        <valItem ident="i">
+          <desc xml:lang="en">Índice: Index finger of the plucking hand.</desc>
+        </valItem>
+        <valItem ident="m">
+          <desc xml:lang="en">Medio: Middle finger of the plucking hand.</desc>
+        </valItem>
+        <valItem ident="a">
+          <desc xml:lang="en">Anular: Ring finger of the plucking hand.</desc>
+        </valItem>
+        <valItem ident="x">
+          <desc xml:lang="en">Little finger of the plucking hand.</desc>
+        </valItem>
+        <valItem ident="0">
+          <desc xml:lang="en">Thumb of the fretting hand.</desc>
+        </valItem>
+        <valItem ident="1">
+          <desc xml:lang="en">Index finger of the fretting hand.</desc>
+        </valItem>
+        <valItem ident="2">
+          <desc xml:lang="en">Middle finger of the fretting hand.</desc>
+        </valItem>
+        <valItem ident="3">
+          <desc xml:lang="en">Ring finger of the fretting hand.</desc>
+        </valItem>
+        <valItem ident="4">
+          <desc xml:lang="en">Little finger of the fretting hand.</desc>
+        </valItem>
+      </valList>
+    </content>
+  </macroSpec>
   <macroSpec ident="data.TEMPERAMENT" module="MEI" type="dt">
     <desc xml:lang="en">Temperament or tuning system.</desc>
     <content>
