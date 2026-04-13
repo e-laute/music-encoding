@@ -75,6 +75,7 @@
       <memberOf key="att.fing.log"/>
       <memberOf key="att.fing.vis"/>
       <memberOf key="model.fingeringLike"/>
+      <memberOf key="att.stringtab.fingerings"/>
     </classes>
     <content>
       <rng:zeroOrMore>
