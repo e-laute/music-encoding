@@ -61,6 +61,20 @@
       </valList>
     </content>
   </macroSpec>
+   <macroSpec ident="data.HANDROLE" module="MEI.stringtab" type="dt">
+    <desc xml:lang="en">Role of hand in fingering indication relevant to plucked string instruments. One of 'sounding' and 'stopping'.
+    </desc>
+    <content>
+      <valList type="closed">
+        <valItem ident="sounding">
+          <desc xml:lang="en">The plucking or strumming hand.</desc>
+        </valItem>
+        <valItem ident="stopping">
+          <desc xml:lang="en">The stopping or fretting hand.</desc>
+        </valItem>
+      </valList>
+    </content>
+  </macroSpec>
   <classSpec ident="att.course.log" module="MEI.stringtab" type="atts">
     <desc xml:lang="en">Logical domain attributes.</desc>
     <classes>
@@ -120,17 +134,6 @@
         <desc xml:lang="en">Records which course is to be played.</desc>
         <datatype>
           <rng:ref name="data.COURSENUMBER"/>
-        </datatype>
-      </attDef>
-    </attList>
-  </classSpec>
-  <classSpec ident="att.stringtab.fingerings" module="MEI.stringtab" type="atts">
-    <desc xml:lang="en">String tablature fingering information.</desc>
-    <attList>
-      <attDef ident="tab.fing" usage="opt">
-        <desc xml:lang="en">Records fingering information for both sounding and stopping hand.</desc>
-        <datatype>
-          <rng:ref name="data.TABFINGERINGS"/>
         </datatype>
       </attDef>
     </attList>
