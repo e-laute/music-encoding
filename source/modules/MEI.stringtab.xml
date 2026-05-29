@@ -128,7 +128,7 @@
     <desc xml:lang="en">String tablature fingering information.</desc>
     <attList>
       <attDef ident="tab.fing" usage="opt">
-        <desc xml:lang="en">Records fingering information for both plucking and fretting hand.</desc>
+        <desc xml:lang="en">Records fingering information for both sounding and stopping hand.</desc>
         <datatype>
           <rng:ref name="data.TABFINGERINGS"/>
         </datatype>
