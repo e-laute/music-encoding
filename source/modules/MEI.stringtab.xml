@@ -138,17 +138,6 @@
       </attDef>
     </attList>
   </classSpec>
-  <classSpec ident="att.stringtab.handRole" module="MEI.stringtab" type="atts">
-  <desc xml:lang="en">Attributes capturing the role of a hand in a string-tablature fingering indication.</desc>
-  <attList>
-    <attDef ident="handRole" usage="opt">
-      <desc xml:lang="en">Records the role of the hand in a fingering indication.</desc>
-      <datatype>
-        <rng:ref name="data.HANDROLE"/>
-      </datatype>
-    </attDef>
-  </attList>
-</classSpec>
   <classSpec ident="att.stringtab.position" module="MEI.stringtab" type="atts">
     <desc xml:lang="en">String tablature position information.</desc>
     <attList>
